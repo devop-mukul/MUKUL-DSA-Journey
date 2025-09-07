@@ -2,9 +2,9 @@ package Arrays;
 
 public class non_Decreasing_Array {
     public static void main(String[] args) {
-        //int arr[] = {-2, 7, -1, 0, 1, 2, -3};
-        int arr[] = {3, 4, 2, 3};
-        System.out.println(isPossible(arr, 4));
+        int arr[] = {-2, 7, -1, 0, 1, 2};
+        //int arr[] = {3, 4, 2, 3};
+        System.out.println(isPossible(arr, arr.length));
     }
 
     public static boolean isPossible(int[] nums, int n) {

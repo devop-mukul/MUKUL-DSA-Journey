@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class RotateArrayByK {
     public static void main(String[] args) {
         int nums[] = {1, 2, 3, 4, 5, 6, 7};
-        int k = 2;
-        //rotateRight(nums, k);
-        rotateLeft(nums, k);
+        int k = 3;
+        rotateRight(nums, k);
+        //rotateLeft(nums, k);
     }
 
     public static void rotateLeft(int[] nums, int k) {
