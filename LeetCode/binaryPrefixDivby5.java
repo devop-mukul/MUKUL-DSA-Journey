@@ -15,7 +15,7 @@ public class binaryPrefixDivby5 {
         List<Boolean> list = new ArrayList<>();
         int rem = 0;
         for(int bit : nums) {
-            rem = ((rem << 1) + bit) % 5;
+            rem = ((rem << 1) + bit) % 5; //same as rem = (rem * 2 + nums[i]) % 5
             // if(rem == 0)
             //     list.add(true);
             // else
